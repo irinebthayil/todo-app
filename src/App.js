@@ -4,7 +4,7 @@ import Main from './Main';
 
 function App() {
 
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   function toggleTheme() {
     setTheme((theme) => { return theme == 'light' ? 'dark' : 'light' })
