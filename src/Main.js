@@ -95,14 +95,16 @@ const Main = (props) => {
 
   function toggleTheme(e){
     const s = e.target.alt
-    if(s == "Night Mode")
+    if(s == "Dark Mode")
     {
       e.target.src = sunIcon;
       e.target.alt = "Light Mode"
+      e.target.title = "Light Mode"
     }
     else{
       e.target.src = moonIcon;
-      e.target.alt = "Night Mode"
+      e.target.alt = "Dark Mode"
+      e.target.title = "Dark Mode"
     }
     
     props.toggleTheme();
@@ -112,7 +114,7 @@ const Main = (props) => {
     <div className={classes['main-parent-div']}>
       <div className={classes['main-header']}>
         <h1>TODO</h1>
-        <img src={moonIcon} alt='Night Mode' onClick={toggleTheme}/>
+        <img src={sunIcon} alt='Light Mode' title='Light Mode' onClick={toggleTheme}/>
       </div>
       <br></br><br></br>
       <InputToDo onAddNewToDo={onAddNewToDo} />
