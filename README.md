@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshots
 
-![Mobile View Light](./screenshots/ss_mobile_light.png =250x350) ![Mobile View Dark](./screenshots/ss_mobile_dark.png =250x350)
+![Mobile View Light](./screenshots/ss_mobile_light.png) ![Mobile View Dark](./screenshots/ss_mobile_dark.png)
 ![Desktop View Light](./screenshots/ss_desktop_light.png)
 ![Desktop View Dark](./screenshots/ss_desktop_dark.png)
 
