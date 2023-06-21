@@ -1,0 +1,46 @@
+.main-parent-div {
+    box-sizing: border-box;
+    position: absolute;
+    padding: 24px;
+    top: 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.main-header h1 {
+    color: white;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 8px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.main-header img{
+    cursor: pointer;
+}
+
+.todo-items {
+    margin-top: 16px;
+}
+
+@media only screen and (min-width: 920px) {
+    .main-parent-div {
+        width: 40%;
+        top: 40px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .main-header h1 {
+        font-size: 2.2rem;
+    }
+}

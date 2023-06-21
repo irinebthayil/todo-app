@@ -1,0 +1,19 @@
+.parent-div{
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-background);
+}
+
+#headerImage{
+  background-image: var(--headerImageMobile);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 32%;
+  background-size: 100%;
+}
+
+@media only screen and (min-width: 920px) {
+  #headerImage{
+    background-image: var(--headerImageDesktop);
+  }
+}

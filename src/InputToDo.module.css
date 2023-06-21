@@ -1,0 +1,40 @@
+.input-todo{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--color-itemBackground);
+    margin: 0;
+    padding: 0;
+    padding: 18px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+#circleDiv {
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    border: 1px solid var(--color-circleBorderInactive);
+    width: 18px;
+    height: 18px;
+}
+
+.input-todo input{
+    background: none;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    width: 100%;
+    color: var(--color-itemTextColor);
+}
+
+@media only screen and (min-width: 920px) {
+    .input-todo input {
+        font-size: 1rem;
+    }
+
+    .input-todo {
+        padding: 22px;
+    }
+}
